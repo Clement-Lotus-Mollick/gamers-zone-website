@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans:wght@200;400;500;700;800&display=swap');
+   *{
+    font-family: 'Cookie', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+   }
+/* nav style  */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+     margin: 0;
+     padding: 0;
+     /* border: 2px solid gray;  */
+}
+.nav-ttl{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+    color: #3C354F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+  
+}
+.nav-menu{
+    display: flex; 
+    align-items: center;
+    gap: 25px;
+}
+.menu-list a{
+    text-decoration: none;
+}
+
+.nav-intro{
+    font-size: 45px;
+    font-weight: bold;
+}
+.pink{
+    color:  #FF42A5;
+}
+
+.nav-menu-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 230px;
+ height: 56px;
+
+color: #3C354F;
+text-align: center;
+ 
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+ 
+}
+
+/* our nav bar done   up   */
+
+/* main section start   down   */
