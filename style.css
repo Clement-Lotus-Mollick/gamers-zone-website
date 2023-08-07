@@ -4,6 +4,11 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
    }
+
+   body{
+    margin: 0;
+    padding: 0;
+  }
 /* nav style  */
 
 .nav-container{
@@ -14,7 +19,7 @@ font-family: 'Work Sans', sans-serif;
      padding: 0;
      /* border: 2px solid gray;  */
 }
-.nav-ttl{
+.nav-ttl,.foot-head{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -143,9 +148,283 @@ padding: 20px 40px;
 
    /* our banner section done  */
        
-   /* starting next  */
+   /* starting next we-are-gamers */
 
-   
+
+        .we-are-gamers{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .wag-heading{
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+margin-top: 15px;
+margin-bottom: 15px;
+        }
+
+        .wag-para{
+            width: 520px; 
+            color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+  margin-top: 0px;
+  margin-bottom: 10px;
+        }
+
+        .wag-btn{
+            color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+
+padding: 20px 40px;
+gap: 10px;
+ 
+        }
+
+        .btn-right{
+            display: flex;
+            justify-content: end;
+            margin-top: 10px;
+        }
+
+        .wag-para-two{
+            width: 520px;
+            color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+        }
+
+
+        .wag-para-diff{
+            color: #534C64;
+
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+    }
+
+    .wag-texttwo{
+        text-align: right;
+    }
+
+    /* we are gamer part done  */
+
+    /* start next cart style   */
+     .cart-txt{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .cart-intro{
+        color: #0B0223;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 25px;
+     }
+     .cart-diff-clr{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+     }
+
+     .cart-para{
+        color: #534C64;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-top: 0;
+
+     }
+
+     .cart-img{
+        display: flex;
+        justify-content: space-around;
+     }
+
+     .cart-u-para{
+        display: flex;
+        justify-content: space-around;
+     }
+     .para-under-img{
+        width: 342px;
+        color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+     }
+ 
+     .cart-btn{
+        height: 50px;
+        width: 90px;
+        position:absolute;
+        right: 140px;
+        top: 1700px;
+        color: rgb(236, 45, 109);
+        background-color: rgba(234, 233, 233, 0.53);
+        font-weight: bold;
+         
+      }
+     
+
+      /* next style play online  */
+
+      .play-online{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 150px;
+    
+      }
+
+      .po-intro{
+        width: 426px;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+      }
+
+      #gradi{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+      }
+
+      .po-para{
+        width: 483px;
+        color: #534C64;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+      }
+
+      .small-img-div{
+        display: flex;
+        justify-content: center;
+      }
+      .po-img-small{
+        position: relative;
+        bottom: 300px;
+      }
+
+
+      /* next   */
+      .mini-cart{
+        display: flex;
+        justify-content: space-around;
+         margin-bottom: 50px;
+      }
+
+     .mini-one{
+        display: flex;
+         gap: 20px;
+         align-items: center;
+        width: 243px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #eeecec;
+     }
+
+     .mini-one p{
+        color: #0B0223;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+     }
+
+     .mini-one:hover{
+        background-color: white;
+        border: 2px solid rgb(220, 57, 85);
+     }
+
+     .mini-one p:hover{
+        color: rgb(222, 66, 92);
+     }
+
+
+     /* next  footer  */
+
+     .foot-cont{
+        background: #0B0223;
+     }
+        .foot-head{
+          display: flex;
+          justify-content: center;
+          margin-top: 100px;
+        }
+
+        #white{
+            color: white;
+        }
+
+        .foot-para{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+             padding-left: 50px;
+             padding-right: 50px;
+        }
+        .foot-para p{
+            color: white;
+        }
+
+        .foot-icon{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .foot-small{
+            display: flex;
+            justify-content: center;
+        }
+        .foot-small p{
+            color: white;
+        }
+     /* done  */
 
 
 
@@ -193,7 +472,34 @@ padding: 20px 40px;
         flex-direction: column;
         justify-content:flex-start;
     }
+
+
+      /* we are gamer respo  */
+
+      .we-are-gamers{
+        flex-direction: column-reverse;
       }
+
+      .wag-img{
+        display: flex;
+        flex-direction: column; 
+        width: 500px;
+      }
+
+      .wag-heading{
+        text-align: center;
+      }
+
+      .btn-right{
+        justify-content: center;
+      }
+
+      .wag-para{
+        text-align: center;
+         width: 100vw;
+      }
+         /* i need live help          help help help help   */   
+      }    /*  stop  mobile respo */
 
 
       /* responsive for medium devices  ###############2 */
@@ -239,4 +545,91 @@ padding: 20px 40px;
             flex-direction: column;
             justify-content:flex-start;
         }
+
+         /* we are gamer respo  */
+
+         .we-are-gamers{
+            flex-direction: column-reverse;
+          }
+    
+          .wag-img{
+            display: flex;
+            flex-direction: column; 
+            width: 730px;
+          }
+    
+          .wag-heading{
+            text-align: center;
+          }
+          .wag-para{
+            text-align: center;
+          }
+
+          .btn-right{
+            justify-content: center;
+          }
+
+          .wag-para-two{
+            text-align: center;
+          }
+
+          /* start next respo   cart */
+
+
+          .img-cart{
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+          }
+          .para-under-img{
+            font-size: 17px;
+            padding: 7px;
+          }
+
+          .cart-btn{
+            height: 50px;
+            width: 90px;
+            position:absolute;
+            right: 50px;
+            top: 2250px;
+            color: rgb(236, 45, 109);
+            background-color: rgba(234, 233, 233, 0.53);
+            font-weight: bold;
+          }
+
+          /* start new respo  */
+
+          .play-online{
+            flex-direction: column;
+            margin-top: 30px;
+          }
+
+          .po-large-img{
+           width: 500px;
+          }
+
+          .small-img-div{
+            width: 160px; 
+            height: 200px;
+            position: relative;
+            bottom: 170px;
+            left: 500px;
+          }
+
+          /* next   */
+
+          .mini-cart{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+          }
+
+          /* next footer respo  */
+
+
       }
+
+
+      /* project complete    Code Clement Lotus Mollick    responsive for tablet and laptop screen  */
+      /* facing problem for mobile device  */
